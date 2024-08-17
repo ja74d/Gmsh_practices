@@ -6,7 +6,7 @@ gmsh.initialize()
 gmsh.model.add("t1")
 
 #Mesh size
-lc = 1e-2
+lc = 1
 
 gmsh.model.geo.addPoint(0, 0, 0, lc, 1)
 gmsh.model.geo.addPoint(.1, 0, 0, lc, 2)
