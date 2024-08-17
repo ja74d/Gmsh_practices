@@ -1,4 +1,4 @@
-<title>Gmsh</title>
+<h1>Gmsh</h1>
 
 <br>
 <center>
