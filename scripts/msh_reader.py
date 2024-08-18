@@ -3,7 +3,7 @@ import numpy as np
 
 gmsh.initialize()
 gmsh.option.setNumber("General.Terminal", 1)
-gmsh.open('/home/javad/gmsh_practices/mesh_results/t1.msh')
+gmsh.open('/home/javad/gmsh_practices/mesh_results/rectangular_mesh.msh')
 
 node_tags, node_coords, _ = gmsh.model.mesh.getNodes()
 

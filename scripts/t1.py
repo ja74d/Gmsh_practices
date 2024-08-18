@@ -9,9 +9,9 @@ gmsh.model.add("t1")
 lc = 1
 
 gmsh.model.geo.addPoint(0, 0, 0, lc, 1)
-gmsh.model.geo.addPoint(.1, 0, 0, lc, 2)
-gmsh.model.geo.addPoint(.1, .3, 0, lc, 3)
-gmsh.model.geo.addPoint(0, .3, 0, lc, 4)
+gmsh.model.geo.addPoint(8, 0, 0, lc, 2)
+gmsh.model.geo.addPoint(8, 8, 0, lc, 3)
+gmsh.model.geo.addPoint(0, 8, 0, lc, 4)
 
 #p4 = gmsh.model.geo.addPoint(0, -3, 0, lc)
 
